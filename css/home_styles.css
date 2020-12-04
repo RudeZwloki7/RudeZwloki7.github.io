@@ -1,5 +1,4 @@
-.mycard {
-    transform: translateY(0px);
-    transition-duration: 500ms;
-    opacity: 1;
+.preview-img{
+    width: available;
+    height: available;
 }

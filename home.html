@@ -5,26 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Комплектующие ПК</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="libs/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/home_styles.css">
+    <!--    <script src="js/home_scripts.js"></script>-->
 
     <style>
         body {
+            /*background: #f5f5f7;*/
             background: #2b2b2b;
         }
     </style>
 
-    <script src="js/bootstrap.js"></script>
-    <script src="libs/jquery.js"></script>
-
 
 </head>
 <body>
+<!--Header-->
 <nav class="navbar navbar-expand-lg navbar-dark text-light" style="background: #161515">
-    <a href="index.html" class="navbar-brand user-select-none" style="margin-left: 10px;font-family: 'Liberation Sans',sans-serif">PC Explorer</a>
+    <a href="index.html" class="navbar-brand user-select-none"
+       style="font-family: 'Liberation Sans',sans-serif">PC Explorer</a>
 </nav>
+<!--Page wrapper-->
+<div id="page" class="container-fluid m-0 p-0"
+     style=" background: url('https://toppng.com/uploads/preview/device-hardware-computer-technology-backlight-dark-11570061425qe3rgjbtyq.jpg') no-repeat center center /cover">
+<!--Page Background-->
+    <div class="container-fluid" style="backdrop-filter: blur(4px)">
+<!--Page header-->
+        <div id="header" class="container-fluid m-0 p-0">
+            <div style="backdrop-filter: blur(4px)">
+                <div class="jumbotron bg-dark text-light font-weight-bold text-center bg-transparent"
+                     style="min-height: 20rem">
+                    <h1 class="font-weight-bold">Здесь вы можете просмотреть все типы комплектующих ПК</h1>
+                    <p class="lead">Ниже вы можете выбрать интересующую Вас группу комплектующих и более подробно
+                        изучить
+                        роль,
+                        характеристики и устройство выбранной составляющей компьютера</p>
+                </div>
+            </div>
+        </div>
+<!--Page card links-->
+        <div class="container-fluid">
+<!--First row-->
+            <div class="row">
+                <div class="mycard container-fluid col-sm-12 col-md-6  col-lg-6 pb-5">
+                    <a href="#" class="card card-demo text-white show-on-scroll show-on-scroll-ready"
+                       data-show-duration="500" data-show-distance="20" data-show-delay="50"
+                       style="background-color: #2b2b2b;width: 100%; height: 100%">
+                        <span class="card-img">
+                           <img src="https://www.ixbt.com/img/n1/news/2019/11/3/intel_cpu_chip_security_credit_intel_and_baks_gettyimages_1200x800-100796394-large_large_large.jpg"
+                                class="img-thumbnail img-fluid bg-dark border-dark " alt="CPU">
+                        </span>
+                        <span class="card-body">
+                                    <span class="card-title h5">Процессор и система охлаждения</span>
+                        </span>
+                    </a>
+                </div>
+
+                <div class="mycard container-fluid col-sm-12 col-md-6  col-lg-6 pb-5">
+                    <a href="#" class="card card-demo text-white show-on-scroll show-on-scroll-ready"
+                       data-show-duration="500" data-show-distance="20" data-show-delay="50"
+                       style="background-color: #2b2b2b;width: 100%; height: 100%">
+                        <span class="card-img">
+                            <img src="https://cdn.mos.cms.futurecdn.net/HAKqTKChcmhFEAvpN7qeGh.jpg"
+                                 class="img-thumbnail img-fluid bg-dark border-dark" alt="Motherboard">
+                        </span>
+                        <span class="card-body">
+                            <span class="card-title h5">Материнская плата</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
+
 
 </body>
 </html>

@@ -7,11 +7,11 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="libs/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
-
     <style>
         body {
             background: #1b1b1b;
@@ -23,7 +23,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark" style="background: #161515">
-    <span class="navbar-brand user-select-none" style="margin-left: 10px;font-family: 'Liberation Sans',sans-serif">PC Explorer</span>
+    <span class="navbar-brand user-select-none" style="font-family: 'Liberation Sans',sans-serif">PC Explorer</span>
 </nav>
 <section>
     <div class="container-fluid">
@@ -36,7 +36,7 @@
             <div class="col-md-12 col-lg-5 text-light mt-lg-auto mb-lg-auto" style="font-size: 26px">
                 <h1 class="font-weight-bold">Как устроен персональный компьютер?</h1>
                 <div class="dropdown-divider bg-light"></div>
-                <p >Интернет-ресурс PC Explorer поможет Вам разобраться в аппаратном обеспечении компьютера.
+                <p id="element">Интернет-ресурс PC Explorer поможет Вам разобраться в аппаратном обеспечении компьютера.
                     <br>
                     С его помощью Вы узнаете о предназначении комплектующих ПК, а также о их взаимосвязи между собой.
                 </p>
@@ -44,7 +44,7 @@
         </div>
     </div>
 </section>
-<div class="container-fluid text-light" style="padding: 30px" >
+<div class="container-fluid text-light" style="padding: 30px">
     <div class="blockquote fst-italic" style="font-size: 26px">
         “All parts should go together without forcing. You must remember that the parts you are reassembling were
         disassembled by you. Therefore, if you can’t get them together again, there must be a reason. By all means, do

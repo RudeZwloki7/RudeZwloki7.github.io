@@ -4,52 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Комплектующие ПК</title>
-
+    <!--Link stylesheets-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Link scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
-    <style>
-        body {
-            background: #1b1b1b;
-        }
-    </style>
-
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background: #161515">
-    <span class="navbar-brand user-select-none" style="font-family: 'Liberation Sans',sans-serif">PC Explorer</span>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <span class="navbar-brand user-select-none">PC Explorer</span>
 </nav>
 <section>
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <img class="img-fluid"
-                     src="https://zdnet3.cbsistatic.com/hub/i/r/2020/08/30/2acd5e80-366d-4dc5-a0cb-f2986a409488/resize/1200xauto/1035689cccaa7743eea4a8e53dce836f/nzxt-starter-pc-gaming-desktop.png"
-                     alt="Responsive image">
+                <img class="img-fluid" src="res/index-pc.png" alt="Responsive image">
             </div>
-            <div class="col-md-12 col-lg-5 text-light mt-lg-auto mb-lg-auto" style="font-size: 26px">
+            <div class="col-md-12 col-lg-5 text-light mt-lg-auto mb-lg-auto">
                 <div id="header">
-                <h1 class="font-weight-bold">Как устроен персональный компьютер?</h1>
-                <div class="dropdown-divider bg-light"></div>
+                    <h1 class="font-weight-bold">Как устроен персональный компьютер?</h1>
+                    <div class="dropdown-divider bg-light"></div>
                 </div>
                 <div id="info">
-                <p>Интернет-ресурс PC Explorer поможет Вам разобраться в аппаратном обеспечении компьютера.
-                    <br>
-                    С его помощью Вы узнаете о предназначении комплектующих ПК, а также о их взаимосвязи между собой.
-                </p>
+                    <p>Интернет-ресурс PC Explorer поможет Вам разобраться в аппаратном обеспечении компьютера.
+                        <br>
+                        С его помощью Вы узнаете о предназначении комплектующих ПК, а также о их взаимосвязи между
+                        собой.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<div id="containment" class="container-fluid text-light" style="padding: 30px">
-    <div class="blockquote fst-italic" style="font-size: 26px">
+<div id="containment" class="container-fluid text-light">
+    <div class="blockquote font-italic">
         “All parts should go together without forcing. You must remember that the parts you are reassembling were
         disassembled by you. Therefore, if you can’t get them together again, there must be a reason. By all means, do
         not use a hammer.”
@@ -57,9 +52,7 @@
     <div class="blockquote-footer">
         IBM Manual, 1925
     </div>
-    <br>
-    <a href="home.html" class="btn btn-dark btn-outline-light">Начать изучение</a>
+    <a id="welcome-btn" href="home.html" class="btn btn-dark btn-outline-light">Начать изучение</a>
 </div>
-
 </body>
 </html>

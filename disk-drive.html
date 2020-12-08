@@ -4,39 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Комплектующие ПК</title>
-
+    <!--Link stylesheets-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Link scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-
-    <style>
-        body {
-            background: #1b1b1b;
-        }
-    </style>
-
 </head>
 
 <body>
-<!--</nav>-->
-<nav class="navbar navbar-expand-lg navbar-dark text-light" style="background: #161515">
-    <a href="index.html" class="navbar-brand user-select-none"
-       style="font-family: 'Liberation Sans',sans-serif">PC Explorer</a>
-    <a href="home.html" class="nav-item float-right text-light text-muted user-select-none"
-       style="font-family: 'Liberation Sans',sans-serif; font-size: large; position: absolute; right:1%">&#x02190
-        Назад</a>
+<!--Header-->
+<nav class="navbar navbar-expand-lg navbar-dark text-light">
+    <a href="index.html" class="navbar-brand user-select-none">PC Explorer</a>
+    <a id="back-btn" href="home.html"
+       class="nav-item float-right text-light text-muted user-select-none">&#x02190Назад</a>
 </nav>
-<!--Motherboard Page-->
+<!--Disk drive page wrapper-->
 <div class="container-fluid" id="wrapper">
-    <!--  Header row  -->
+    <!--Component name-->
     <div id="header" class="row row-cols-1 row-cols-md-1 row-cols-lg-2 pt-5">
         <div class="container-fluid col-sm-12 col-md-12 col-lg-6">
             <img class="img-fluid img-thumbnail bg-dark border-dark"
-                 src="https://ugra.ru/pics-smadshop.md/image/cache/data/pc/cd-rom/samsung-sh-s224dbbebe-black--1280x960.jpg"
+                 src="res/disk-drive.jpg"
                  alt="Optical drive">
         </div>
         <div class="container-fluid col-sm-12 col-md-12 col-lg-4 my-auto pt-3 pt-lg-0">
@@ -46,15 +39,14 @@
         </div>
     </div>
     <div class="dropdown-divider mt-lg-4 mt-4"></div>
-    <!--    Description-->
+    <!--Component description-->
     <div id="info" class="container-fluid text-light text-justify">
         <p>
             <a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%B2%D0%BE%D0%B4_%D0%BE%D0%BF%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85_%D0%B4%D0%B8%D1%81%D0%BA%D0%BE%D0%B2"><b>Оптический
                 привод</b></a>
             — устройство, имеющее механическую составляющую, управляемую электронной схемой и
             предназначенное для считывания и (в большинстве современных моделей) записи информации с оптических
-            носителей
-            информации в виде пластикового диска с отверстием в центре (компакт-диск, DVD и т. д.); процесс
+            носителей информации в виде пластикового диска с отверстием в центре (компакт-диск, DVD и т. д.); процесс
             считывания/записи информации с диска осуществляется при помощи лазера.
         </p>
 
@@ -63,9 +55,8 @@
             носителя.</p>
 
         <p>Сам по себе оптический привод может быть в виде составляющей конструкции в составе более сложного
-            оборудования
-            (например, бытового DVD-проигрывателя) либо выпускаться в виде независимого устройства со стандартным
-            интерфейсом подключения (PATA, SATA, USB), например, для установки в компьютер.</p>
+            оборудования (например, бытового DVD-проигрывателя) либо выпускаться в виде независимого устройства со
+            стандартным интерфейсом подключения (PATA, SATA, USB), например, для установки в компьютер.</p>
 
         <p class="text-muted"> Фирм производителей: Asus, Hitachi-LG Data Storage (HLDS), LG Electronics, Panasonic,
             Philips & Lite-on Digital Solutions Corporation, Optiarc, Pioneer, Sony Corporation, TEAC, Toshiba Samsung
@@ -73,6 +64,5 @@
 
     </div>
 </div>
-
 </body>
 </html>

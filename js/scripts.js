@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 $(document).ready(function (){
     $('.card-elem').hover(
-        function(){$(this).animate({marginTop: '-=2%'}, 200);},
-        function(){$(this).animate({marginTop: '0'}, 200);}
+        function(){$(this).animate({marginTop: '-=2%'}, 100);},
+        function(){$(this).animate({marginTop: '0'}, 100);}
     );
 });

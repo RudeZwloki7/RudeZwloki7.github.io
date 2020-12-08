@@ -1,0 +1,39 @@
+body {
+    background: #1b1b1b;
+    font-size: 24px;
+}
+
+#home-bg{
+    backdrop-filter: blur(4px)
+}
+
+#nav-panel{
+    background: #161515
+}
+
+#index-ref{
+    font-family: 'Liberation Sans',sans-serif
+}
+
+#page{
+    background: url('../res/bg-img.jpg') no-repeat center center /cover
+}
+.blockquote, .blockquote-footer{
+    font-size: 26px;
+    padding-left: 30px;
+}
+#welcome-btn{
+    margin: 15px;
+}
+#bg-filter{
+    backdrop-filter: blur(4px)
+}
+.jumbotron{
+    min-height: 20rem
+}
+#back-btn{
+    font-family: 'Liberation Sans',sans-serif;
+    font-size: large;
+    position: absolute;
+    right:1%
+}

@@ -11,6 +11,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 
     <style>
         body {
@@ -32,7 +33,7 @@
 <!--Motherboard Page-->
 <div class="container-fluid" id="wrapper">
     <!--  Header row  -->
-    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 pt-5">
+    <div id="header" class="row row-cols-1 row-cols-md-1 row-cols-lg-2 pt-5">
         <div class="container-fluid col-sm-12 col-md-12 col-lg-6">
             <img class="img-fluid img-thumbnail bg-dark border-dark"
                  src="https://media.sketchfab.com/models/3bc94057328243d4b341a55f59160f8a/thumbnails/058725c1d2d949228173b1359011ab90/7ac712ff6da848778ef7e7c4d14963bc.jpeg"
@@ -46,7 +47,7 @@
     </div>
     <div class="dropdown-divider mt-lg-4 mt-4"></div>
     <!--    Description-->
-    <div class="container-fluid text-light text-justify">
+    <div id="info" class="container-fluid text-light text-justify">
         <p>
             <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D0%B0">
                 <b>Motherboard (Mainboard) — Материнская (системная плата)</b></a> – главный элемент компьютерной
@@ -55,18 +56,20 @@
             разъемов, предназначенных для установки тех или иных комплектующих.</p>
         <h1 class="h-auto">Основные компоненты, установленные на материнской (системной) плате:</h1>
         <ul class="list-group">
-            <li><p>Центральный процессор— установлен в спец. разъем и охлаждается радиатором и вентилятором.</p></li>
+            <li><p><a href="cpu.html"> Центральный процессор</a> — установлен в спец. разъем и охлаждается радиатором и
+                вентилятором.</p></li>
             <li><p>Набор системной логики (англ. chipset)— набор микросхем, обеспечивающих подключение ЦПУ к ОЗУ и
                 контроллерам периферийных устройств. Как правило, современные наборы системной логики строятся на базе
                 двух СБИС: «северного» и южного мостов».Именно набор системной логики определяет все ключевые
                 особенности системной платы и то, какие устройства могут подключаться к ней.</p>
             </li>
-            <li><p>Оперативная память(также оперативное запоминающее устройство, ОЗУ)</p></li>
+            <li><p><a href="ram.html">Оперативная память</a>(также оперативное запоминающее устройство, ОЗУ)</p></li>
             <li><p>Загрузочное ПЗУ— хранит ПО, которое исполняется сразу после включения питания. Микросхемы
                 перепрограммируемой памяти, в которой хранятся программы BIOS, программы тестирования ПК, загрузки ОС,
                 драйверы устройств, начальные установки.</p>
             </li>
-            <li><p>Разъемы для подключения дополнительных устройств (слоты) PCI / ISA / AGP/ PCI-E, разъемы для подключения
+            <li><p>Разъемы для подключения дополнительных устройств (слоты) PCI / ISA / AGP/ PCI-E, разъемы для
+                подключения
                 накопителя на ГМД и ЖД.</p>
             </li>
         </ul>
@@ -81,9 +84,7 @@
             следует исключить контакт с дном и боковыми металлическими панелями корпуса, во избежание короткого
             замыкания.</p>
 
-        <p class="text-muted">Фирм производителей: ADATA, AMD, Apacer, ASRock, ASUS, Cooler Master, Corsair, Crucial,
-            Dell, Foxconn, Foxline, FSP, Gigabyte, Hitachi, HP Inc., Intel, In-Win, Kingston, Lenovo, LG, MSI, Palit,
-            PNY, Samsung, Seagate, Thermaltake, Toshiba, Transcend.</p>
+        <p class="text-muted">Фирм производителей: ASRock, Asus, Biostar, EVGA Corporation, Gigabyte Technology, MSI (Micro-Star International), Intel</p>
     </div>
 </div>
 

@@ -1,13 +1,11 @@
 $(document).ready(function(){
     $('#header'). fadeOut(1);
     $('#info').fadeOut(1);
-    $('#containment').fadeOut(1);
+    $('#secondary').fadeOut(1);
     $('#header').fadeIn(1000,function (){
-        $('.dropdown-divider').fadeIn(1000,function () {
             $('#info').fadeIn(1000,function (){
-                $('#containment').fadeIn(1000)
-            })
-        })
+                $('#secondary').fadeIn(1000)
+            });
     });
 });
 
